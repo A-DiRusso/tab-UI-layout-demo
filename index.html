@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheet/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- script can be on top because of DOMContentLoaded function in index.js -->
+    <script src="script/index.js"></script>
+    <ul class="tab-list">
+        <li data-tabname="tab1" class="item selected">Tab 1</li>
+        <li data-tabname="tab2" class="item">Tab 2</li>
+        <li data-tabname="tab3" class="item">Tab 3</li>
+        <li data-tabname="tab4" class="item">Tab 4</li>
+    </ul>
+    <div class="tab-container">
+        <div data-tabname="tab1" class="tab-content hidden" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate asperiores et quos repellendus tempore, quaerat corrupti incidunt quisquam. Tenetur optio libero eius ut, corrupti consectetur vel dignissimos sit laudantium voluptas?</div>
+        <div data-tabname="tab2"class="tab-content hidden" >Voluptate asperiores et quos repellendus tempore, quaerat corrupti incidunt quisquam. Tenetur optio libero eius ut, corrupti consectetur vel dignissimos sit laudantium voluptas?</div>
+        <div data-tabname="tab3"class="tab-content hidden">Tenetur optio libero eius ut, corrupti consectetur vel dignissimos sit laudantium voluptas?</div>
+        <div data-tabname="tab4" class="tab-content hidden" >voluptas?</div>
+    </div>
+</body>
+</html>
